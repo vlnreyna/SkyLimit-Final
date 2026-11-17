@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 02b8ac65540d6d84fad6d5a7f62a73a4
+guid: 067742d0eb5123b41aec351ea2052b2c
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,6 +114,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,19 +147,19 @@ TextureImporter:
       name: run_right_strip_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 4
-        width: 108
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bb429bd7b2ff7420800000000000000
+      spriteID: 66e96713dda04f978295b0f0ad26d93a
       internalID: 2630087578884393905
       vertices: []
       indices: 
@@ -143,19 +169,19 @@ TextureImporter:
       name: run_right_strip_1
       rect:
         serializedVersion: 2
-        x: 184
-        y: 4
-        width: 112
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a64343a69caff360800000000000000
+      spriteID: 2084f8ea580645b8873f9c088c88afe4
       internalID: 7205667691800250020
       vertices: []
       indices: 
@@ -165,19 +191,19 @@ TextureImporter:
       name: run_right_strip_2
       rect:
         serializedVersion: 2
-        x: 343
-        y: 4
-        width: 114
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c0614b909af99890800000000000000
+      spriteID: ef86c52eae0341458cbb2d4f8dfa53a4
       internalID: -7450648609520787261
       vertices: []
       indices: 
@@ -187,19 +213,19 @@ TextureImporter:
       name: run_right_strip_3
       rect:
         serializedVersion: 2
-        x: 506
-        y: 4
-        width: 107
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad5ae643037a9adc0800000000000000
+      spriteID: 3017453d059c4c2a93607d04a919333c
       internalID: -3627184199390288422
       vertices: []
       indices: 
@@ -209,19 +235,19 @@ TextureImporter:
       name: run_right_strip_4
       rect:
         serializedVersion: 2
-        x: 665
-        y: 4
-        width: 109
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7edc201c93627f5b0800000000000000
+      spriteID: 4b758a4fe1094bada36053fed413c357
       internalID: -5334753204103885337
       vertices: []
       indices: 
@@ -231,19 +257,19 @@ TextureImporter:
       name: run_right_strip_5
       rect:
         serializedVersion: 2
-        x: 826
-        y: 4
-        width: 108
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1912ed1e94d9cd040800000000000000
+      spriteID: ddc8d26d4a8345459f8a610bace7a98c
       internalID: 4673783453951336849
       vertices: []
       indices: 
@@ -253,19 +279,19 @@ TextureImporter:
       name: run_right_strip_6
       rect:
         serializedVersion: 2
-        x: 986
-        y: 4
-        width: 107
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 960
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 309ed11758aa00090800000000000000
+      spriteID: 31f32a39f43d40139f112a0e7d284882
       internalID: -8070263042142770941
       vertices: []
       indices: 
@@ -275,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2bb19333237b3594c9a491775b735816
     internalID: 0
     vertices: []
     indices: 
@@ -283,7 +309,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":176.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       run_right_strip_0: 2630087578884393905
       run_right_strip_1: 7205667691800250020

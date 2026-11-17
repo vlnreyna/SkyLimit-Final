@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86c428dc0aa8d1b43be8861e0d522d9a
+guid: fb1e568460f333f4a94c2f5359e0f8ca
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,6 +111,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,19 +144,19 @@ TextureImporter:
       name: walk_right_strip_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 4
-        width: 108
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a76e06dbbdef90d90800000000000000
+      spriteID: 4826a39b6cc040e8bb26542eddab7543
       internalID: -7130888315235932550
       vertices: []
       indices: 
@@ -140,19 +166,19 @@ TextureImporter:
       name: walk_right_strip_1
       rect:
         serializedVersion: 2
-        x: 190
-        y: 4
-        width: 100
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1bd7d5f0fd5643c0800000000000000
+      spriteID: f2a2636e4db24f8dbb6a81fe2635954d
       internalID: -4375706698445759716
       vertices: []
       indices: 
@@ -162,19 +188,19 @@ TextureImporter:
       name: walk_right_strip_2
       rect:
         serializedVersion: 2
-        x: 348
-        y: 4
-        width: 104
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80f750b8ebeb2f1d0800000000000000
+      spriteID: 6cff2b824c5b4bec9cf802c1b0e67547
       internalID: -3318380249833177336
       vertices: []
       indices: 
@@ -184,19 +210,19 @@ TextureImporter:
       name: walk_right_strip_3
       rect:
         serializedVersion: 2
-        x: 509
-        y: 4
-        width: 101
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4438578be01989490800000000000000
+      spriteID: bea4a391e0c5490c86f679adfd9a2cb1
       internalID: -7739276467225918652
       vertices: []
       indices: 
@@ -206,19 +232,19 @@ TextureImporter:
       name: walk_right_strip_4
       rect:
         serializedVersion: 2
-        x: 668
-        y: 4
-        width: 103
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7b9a31a4ee25dd390800000000000000
+      spriteID: c31c6e132c174f0fbe1d877744f5b151
       internalID: -7791980596882593353
       vertices: []
       indices: 
@@ -228,19 +254,19 @@ TextureImporter:
       name: walk_right_strip_5
       rect:
         serializedVersion: 2
-        x: 827
-        y: 4
-        width: 106
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5b7dd33edf16ba50800000000000000
+      spriteID: 841e0ce6b13b4986b60d7be610fb5fa6
       internalID: 6536446948388207451
       vertices: []
       indices: 
@@ -250,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2bb19333237b3594c9a491775b735816
     internalID: 0
     vertices: []
     indices: 
@@ -258,7 +284,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":176.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       walk_right_strip_0: -7130888315235932550
       walk_right_strip_1: -4375706698445759716

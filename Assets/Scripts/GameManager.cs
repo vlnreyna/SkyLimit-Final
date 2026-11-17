@@ -1,11 +1,53 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public static GameManager Instance;
+    public GameObject gameOverPanel;
+    public TextMeshProUGUI gameOverText;
+    public Button Button;
+
+
+    //Sirve como separacion Visual
+    [Header("Monedas")]
+    public int monedas = 0;
+    public TextMeshProUGUI textoMonedas;
+
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        // DontDestroyOnLoad(gameObject); // solo si lo quieres entre escenas
+    }
+    public void SumarMoneda(int cantidad){
+        monedas += cantidad;
+        ActualizarMonedasUI();
+        GuardarMonedas();
+    }
+
+
+    void ActualizarMonedasUI(){
+        if(textoMonedas != null)
+            textoMonedas.text = "x"+ monedas.ToString();
+    }
+
+    void GuardarMonedas(){
+        PlayerPrefs.SetInt("Monedas", monedas);
+        PlayerPrefs.Save();
+    }
+
+    void CargarMonedas(){
+        monedas= PlayerPrefs.GetInt("Monedas", 0);
+    }
 
     [Header("CheckPoint")]
     public Vector3 checkpointPosicion;

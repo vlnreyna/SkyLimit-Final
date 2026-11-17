@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e5c6ec337d8aaaa42af22e215fc508f5
+guid: 844285060c3f183469fe8f314727880d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,6 +111,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,19 +144,19 @@ TextureImporter:
       name: attack_strip_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 4
-        width: 94
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96702d55ac238cfe0800000000000000
+      spriteID: c62eba65199248dfae1a3746fb8714b5
       internalID: -1168628258698033303
       vertices: []
       indices: 
@@ -140,19 +166,19 @@ TextureImporter:
       name: attack_strip_1
       rect:
         serializedVersion: 2
-        x: 183
-        y: 4
-        width: 114
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca9e56a89849adf30800000000000000
+      spriteID: 7d0fd46b77f14229a1c6396f1ae39014
       internalID: 4601153287765748140
       vertices: []
       indices: 
@@ -162,19 +188,19 @@ TextureImporter:
       name: attack_strip_2
       rect:
         serializedVersion: 2
-        x: 336
-        y: 4
-        width: 91
-        height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64743079f7e3759d0800000000000000
+      spriteID: da0d24e8ec4c44cb8627b248772550c2
       internalID: -2785689126790019258
       vertices: []
       indices: 
@@ -184,19 +210,19 @@ TextureImporter:
       name: attack_strip_3
       rect:
         serializedVersion: 2
-        x: 402
-        y: 30
-        width: 62
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa5211ecfb43a2d70800000000000000
+      spriteID: 92f05d75581f4c859929f5ea082e05f0
       internalID: 9019079202163467690
       vertices: []
       indices: 
@@ -206,42 +232,20 @@ TextureImporter:
       name: attack_strip_4
       rect:
         serializedVersion: 2
-        x: 520
-        y: 4
-        width: 80
-        height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 0
+        width: 160
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc293f13c47148620800000000000000
+      spriteID: d83c7368075e451ab3eb547254a81803
       internalID: 2775368886390067915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_strip_5
-      rect:
-        serializedVersion: 2
-        x: 681
-        y: 4
-        width: 78
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f497b4b6a3670f70800000000000000
-      internalID: 9153394335301473526
       vertices: []
       indices: 
       edges: []
@@ -250,7 +254,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2bb19333237b3594c9a491775b735816
     internalID: 0
     vertices: []
     indices: 
@@ -258,14 +262,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":176.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       attack_strip_0: -1168628258698033303
       attack_strip_1: 4601153287765748140
       attack_strip_2: -2785689126790019258
       attack_strip_3: 9019079202163467690
       attack_strip_4: 2775368886390067915
-      attack_strip_5: 9153394335301473526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,6 +8,8 @@ TagManager:
   - Limit
   - Dead
   - jumpingZone
+  - Moneda
+  - PowerUp1
   layers:
   - Default
   - TransparentFX

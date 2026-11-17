@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     public Sprite standing;
     public Sprite walking;
 
+    private DobleSalto dobleSalto;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,19 +29,30 @@ public class Player : MonoBehaviour
 
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+
+        dobleSalto = GetComponent<DobleSalto>();
+        if (dobleSalto == null)
+        {
+            dobleSalto = gameObject.AddComponent<DobleSalto>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space) && onJumpingZone) 
+        if (Input.GetKeyDown(KeyCode.Space) && !onJumpingZone && dobleSalto.IntentarSaltoExtra())
+        {
+            rb.linearVelocityY = powerJump;
+        }
+
+        if(Input.GetKey(KeyCode.Space) && onJumpingZone)
         {
             rb.linearVelocityY = powerJump;
             onFloor = false;
             onJumpingZone = false;
         }
 
-        else if(Input.GetKey(KeyCode.RightArrow))
+        else if(Input.GetKey(KeyCode.D))
         {
             rb.linearVelocityX = speed;
             sr.sprite = walking;
@@ -47,7 +60,7 @@ public class Player : MonoBehaviour
             walk = true;
         }
 
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.A))
         {
             rb.linearVelocityX = -speed;
             sr.sprite = walking;

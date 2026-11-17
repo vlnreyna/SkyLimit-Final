@@ -81,14 +81,14 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -4088442488078751455, guid: 6df5637749158c5459216ebba906af9b, type: 3}
+  m_Sprite: {fileID: 3259740908226869357, guid: e2b21999e5549dc44abc4b8c46dbd478, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.71, y: 0.7}
+  m_Size: {x: 2.56, y: 2.5607815}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32c7434e6674d54b9d6e97aab1d4af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckPoint
-  spriteActivado: {fileID: -110873774681512140, guid: dec1329f749bdab44beedb4c9c3e42a8, type: 3}
+  spriteActivado: {fileID: -191208350157316658, guid: e2b21999e5549dc44abc4b8c46dbd478, type: 3}
 --- !u!61 &4797877681538926980
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -140,15 +140,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.009310484}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.71, y: 0.7}
-    newSize: {x: 0.71, y: 0.7}
+    oldSize: {x: 2.56, y: 2.5607815}
+    newSize: {x: 2.56, y: 2.5607815}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.71, y: 0.7}
+  m_Size: {x: 0.71, y: 1.6496758}
   m_EdgeRadius: 0
