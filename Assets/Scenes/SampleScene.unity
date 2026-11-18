@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &45758301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1778017449103188070, guid: e04a7d9501483314ea33ea415684dab0, type: 3}
+  m_PrefabInstance: {fileID: 639352680390863260}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &59752422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,8 +1481,11 @@ MonoBehaviour:
   probabilidadVertical: 0.35
   plataformasEstaticasIniciales: 4
   powerUpPrefab: {fileID: 374553434965683365, guid: 0720268e541a24343ac9b91502618264, type: 3}
-  probabilidadPowerUp: 0.12
+  probabilidadPowerUp: 0.2
   offsetPowerUpY: 1.1
+  InmunidadPrefab: {fileID: 45758301}
+  probabilidadInmunidad: 0.1
+  offsetInmunidadY: 1.1
 --- !u!1 &1303530319 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6054511320405168271, guid: 79918899ce57bb946996903e6b17e7cd, type: 3}
