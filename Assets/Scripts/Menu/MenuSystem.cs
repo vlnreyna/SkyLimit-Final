@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEditor;
 
 public class MenuSystem : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class MenuSystem : MonoBehaviour
     public void Exit()
     {
         Debug.Log("Cerrando juego...");
+        #if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
 }
