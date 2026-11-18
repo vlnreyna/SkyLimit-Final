@@ -47,6 +47,15 @@ public class PlatformGenerator : MonoBehaviour
 
     private List<GameObject> activas = new List<GameObject>();
 
+    // Power-up de invencibilidad
+    public GameObject InmunidadPrefab;
+    [Range(0f, 1f)] public float probabilidadInmunidad = 0.12f;
+    public float offsetInmunidadY = 1.1f;
+
+    private float siguienteY2;
+    private float ultimaX2;
+    private int contador2;
+
     // Protección del último checkpoint activado
     private bool hayProtegida;
     private float protegidaY;
@@ -55,6 +64,7 @@ public class PlatformGenerator : MonoBehaviour
     {
         siguienteY = camara.transform.position.y;
         ultimaX = 0f;
+        ultimaX2 = 0f;
     }
 
     // Lo llama el checkpoint al activarse
@@ -186,6 +196,24 @@ public class PlatformGenerator : MonoBehaviour
                 );
 
                 activas.Add(powerUp);
+            }
+            // Genera un power-up2 aleatoriamente
+            else if (InmunidadPrefab != null
+                     && Random.value < probabilidadInmunidad)
+            {
+                Vector3 posicionInmunidad = new Vector3(
+                    x,
+                    siguienteY + offsetInmunidadY,
+                    0f
+                );
+
+                GameObject powerUp2 = Instantiate(
+                    InmunidadPrefab,
+                    posicionInmunidad,
+                    Quaternion.identity
+                );
+
+                activas.Add(powerUp2);
             }
             // Genera una moneda aleatoriamente
             else if (monedaPrefab != null
