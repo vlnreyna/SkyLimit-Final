@@ -3,7 +3,7 @@ using UnityEngine;
 public class Invencibilidad : MonoBehaviour
 {
     // Segundos que dura el power-up desde que se recoge
-    public float duracion = 5f;
+    public float duracion = 10f;
 
     private float tiempoRestante;
 
