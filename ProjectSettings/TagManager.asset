@@ -10,6 +10,7 @@ TagManager:
   - jumpingZone
   - Moneda
   - PowerUp1
+  - PowerUp2
   layers:
   - Default
   - TransparentFX
