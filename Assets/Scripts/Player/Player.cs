@@ -35,6 +35,11 @@ public class Player : MonoBehaviour
         {
             dobleSalto = gameObject.AddComponent<DobleSalto>();
         }
+
+        if (GetComponent<EfectoPowerUps>() == null)
+        {
+            gameObject.AddComponent<EfectoPowerUps>();
+        }
     }
 
     // Update is called once per frame
@@ -87,14 +92,7 @@ public class Player : MonoBehaviour
         {
             onFloor = true;
             onJumpingZone = true;
-        }
-    }
-
-    private void OnTgerEnter2D(Collider2D other)
-    {
-        if(other.CompareTag("Dead"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            dobleSalto.Recargar();
         }
     }
 

@@ -52,10 +52,6 @@ public class PlatformGenerator : MonoBehaviour
     [Range(0f, 1f)] public float probabilidadInmunidad = 0.12f;
     public float offsetInmunidadY = 1.1f;
 
-    private float siguienteY2;
-    private float ultimaX2;
-    private int contador2;
-
     // Protección del último checkpoint activado
     private bool hayProtegida;
     private float protegidaY;
@@ -64,7 +60,6 @@ public class PlatformGenerator : MonoBehaviour
     {
         siguienteY = camara.transform.position.y;
         ultimaX = 0f;
-        ultimaX2 = 0f;
     }
 
     // Lo llama el checkpoint al activarse

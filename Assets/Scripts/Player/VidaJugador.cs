@@ -6,6 +6,7 @@ public class VidaJugador : MonoBehaviour
 
     private int golpes;
     private PlayerRespawn respawn;
+    private Invencibilidad invencibilidad;
 
     private void Start()
     {
@@ -14,6 +15,13 @@ public class VidaJugador : MonoBehaviour
 
     public void RecibirGolpe()
     {
+        if (invencibilidad == null)
+        {
+            invencibilidad = GetComponent<Invencibilidad>();
+        }
+
+        if (invencibilidad != null && invencibilidad.Activo) return;
+
         golpes++;
 
         if (golpes >= golpesParaMorir)

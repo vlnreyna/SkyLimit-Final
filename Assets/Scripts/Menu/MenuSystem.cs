@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 public class MenuSystem : MonoBehaviour
 {
@@ -14,8 +16,8 @@ public class MenuSystem : MonoBehaviour
         Debug.Log("Cerrando juego...");
         #if UNITY_EDITOR
         EditorApplication.isPlaying = false;
-#else
+        #else
         Application.Quit();
-#endif
+        #endif
     }
 }
